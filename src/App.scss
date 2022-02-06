@@ -1,4 +1,5 @@
 .App {
+    background-color: #ffea00;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,27 +17,31 @@
 }
 
 .titleContainer {
-    background: blue;
+    background: #ffa200;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 2rem;
+    font-size: small;
 }
 
+.fas {
+    margin: 0 .5rem;
+}
 
 textarea {
     width: 99%;
     height: 100%;
     resize: vertical;
     outline: none;
-    background-color: lightblue;
+    background-color: #ffc300;
     min-height: 10rem;
 }
 
 #preview {
     padding: 1rem;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: #ffc300;
 }
 
 img {
