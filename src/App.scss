@@ -16,6 +16,12 @@
     border-radius: 3px;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        min-width: 80%;
+    }
+}
+
 .titleContainer {
     background: #ffa200;
     display: flex;
@@ -47,3 +53,16 @@ textarea {
 img {
     max-width: 100%;
 }
+
+table {
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  
