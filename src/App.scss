@@ -1,0 +1,44 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid black;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+    max-width: 60%;
+    border-radius: 3px;
+}
+
+.titleContainer {
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+
+
+textarea {
+    width: 99%;
+    height: 100%;
+    resize: vertical;
+    outline: none;
+    background-color: lightblue;
+    min-height: 10rem;
+}
+
+#preview {
+    padding: 1rem;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+img {
+    max-width: 100%;
+}
